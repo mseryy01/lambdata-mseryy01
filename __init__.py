@@ -1,9 +1,14 @@
-"""
-A collection of Data Science helper functions.
-"""
+"""lambdata - a collection of data science helper functions"""
 
-import pandas as import pd
+import pandas as pd
 import numpy as np
 
-ZEROS = np.zeros(5)
-ONES = np.ones(10)
+#sample code
+
+#sample datasets
+ONES = pd.DataFrame(np.ones(10))
+ZEROS = pd.DataFrame(np.zeros(50))
+
+#sample functions
+def increment(x):
+    return (x + 1)
