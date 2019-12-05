@@ -3,7 +3,7 @@ import unittest
 from oop import show_age show_name
 
 class AgeTest(unittest.TestCase):
-    """Obligatory docstring, test show_age functions!"""
+    """Obligatory docstring, test show_age and show_name functions!"""
     def test_age32(self):
         self.assertEqual(shpw_age(32), 33)
 
